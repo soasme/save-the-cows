@@ -6,8 +6,8 @@ function MenuState:enter()
         require('systems.CollisionSystem')(Bump.newWorld(32)),
         require('systems.SpriteSystem')(),
 
-        require('entities.Player')(0, 0)
-    )
+        require('entities.Player')(love.graphics.getWidth() * 1 / 4,
+                                   love.graphics.getHeight() * 2 / 3))
 end
 
 function MenuState:draw()
