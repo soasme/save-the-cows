@@ -8,7 +8,7 @@ end
 
 function TitleScreenState:draw()
     love.graphics.setFont(Assets.font_xl)
-    love.graphics.printf('Shen Su', 0, 64, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('Save the Cows', 0, 64, VIRTUAL_WIDTH, 'center')
 
     love.graphics.setFont(Assets.font_l)
     love.graphics.printf('Press Enter to Start!', 0, 200, VIRTUAL_WIDTH, 'center')

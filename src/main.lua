@@ -1,5 +1,7 @@
 Class = require 'libs.30log'
+Tiny = require 'libs.tiny'
 Gamestate = require 'libs.gamestate'
+Bump = require 'libs.bump'
 
 -- virtual resolution dimensions
 VIRTUAL_WIDTH = 512
