@@ -10,7 +10,11 @@ function GameControlSystem:process(e, dt)
     if not space then return end
 
     if space then
-        local missile = Missile(player.pos.x + 8, player.pos.y - 32)
+        local missile = Missile(
+                player.pos.x + 8,
+                player.pos.y - 32,
+                50,
+                -200)
         world:add(missile)
     end
 end

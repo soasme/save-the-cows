@@ -6,7 +6,7 @@ function CollisionSystem:init(bumpWorld)
 end
 
 local function collisionFilter(e1, e2)
-    return 'cross'
+    return nil
 end
 
 function CollisionSystem:process(e, dt)

@@ -10,7 +10,7 @@ VIRTUAL_HEIGHT = 288
 Assets = require 'assets'
 
 TitleScreenState = require 'states.TitleScreenState'
-MenuState = require 'states.MenuState'
+PlayState = require 'states.PlayState'
 
 function love.load()
     Gamestate.registerEvents()
